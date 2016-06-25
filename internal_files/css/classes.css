@@ -1,0 +1,19 @@
+.center {
+    text-align: center;
+}
+
+.whiteText{
+color:white;
+}
+
+.blackBackground{
+background-color: black;
+}
+
+.greyBackground{
+background-color: grey;
+}
+
+.paddingZero{
+    padding: 0px;
+}
