@@ -1,19 +1,40 @@
-.center {
+.in_center {
     text-align: center;
 }
 
-.whiteText{
+.in_whiteText{
 color:white;
 }
 
-.blackBackground{
+.in_blackBackground{
 background-color: black;
 }
 
-.greyBackground{
+.in_greyBackground{
 background-color: grey;
 }
 
-.paddingZero{
+.in_paddingZero{
     padding: 0px;
+}
+
+.in_padding10x{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.in_lists{
+padding: 10px;
+width: calc(100%/5);
+max-height: 50%;
+float: left;
+/*position: fixed;*/
+}
+
+.in_boards{
+/*overflow-x: scroll;*/
+clear: left;
+height: 100%;
 }
